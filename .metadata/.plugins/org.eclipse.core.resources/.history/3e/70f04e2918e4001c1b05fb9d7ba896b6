@@ -1,0 +1,30 @@
+
+public class WinTicTacToe {
+
+	public static void main(String[] args) {
+		// Tic Tac Toe game in the console
+		printGameBoard();
+		
+
+	}
+	
+	public static void printGameBoard() {
+		
+	// Game Board (2D array)
+		String[][] gameBoard = {
+							{"  ", "|", "  ", "|", "  "},
+							{"--", "+", "--", "+", "--"},
+							{"  ", "|", "  ", "|", "  "},
+							{"--", "+", "--", "+", "--"},
+							{"  ", "|", "  ", "|", "  "},
+							};
+		
+		for(String[] row : gameBoard) {
+			for(String c : row) {
+				System.out.print(c);
+			}
+			System.out.println();
+		}
+	}
+
+}

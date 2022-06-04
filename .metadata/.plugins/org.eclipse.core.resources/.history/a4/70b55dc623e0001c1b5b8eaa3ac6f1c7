@@ -1,0 +1,14 @@
+
+public class StringInteger {
+
+	public static void main(String[] args) {
+
+		String s = "102";
+		
+		System.out.println(s + 4);
+		System.out.println("Oh, that's not right.  Let's turn it into an integer before doing math.");
+	
+		System.out.println(Integer.parseInt(s) + 4);
+	}
+
+}

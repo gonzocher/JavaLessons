@@ -1,0 +1,22 @@
+
+public class Boolean {
+
+	public static void main(String[] args) {
+
+		boolean passedDoor = true;
+		boolean missedDoor = false;
+		
+		if(passedDoor) {
+			System.out.println("We passed the first door!");
+		}
+		
+		if(missedDoor) {
+			System.out.println("We passed the second door!");
+		}
+		
+		if(true) {
+			System.out.println("We passed the third door!");
+		}
+	}
+
+}

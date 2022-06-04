@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		sayHi(); // runs the method defined below
+		saySomething("hey");
+	}
+
+	static void sayHi() {
+		System.out.println("Hi!");
+	}
+	
+	public static void saySomething(String s) {
+		System.out.println(s);
+	}
+}

@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+// Tic Tac Toe game in the console
+
+public class WinTicTacToe {
+
+	public static void main(String[] args) {
+		printGameBoard();
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("\nEnter your location choice (1-9)");
+		int pos = scan.nextInt();
+		System.out.println(pos);
+	}
+	
+	public static void printGameBoard() {
+		
+	// Game Board (2D array)
+		String[][] gameBoard = {
+							{" 1 ", "|", " 2 ", "|", " 3 "},
+							{"---", "+", "---", "+", "---"},
+							{" 4 ", "|", " 5 ", "|", " 6 "},
+							{"---", "+", "---", "+", "---"},
+							{" 7 ", "|", " 8 ", "|", " 9 "},
+							};
+		
+		System.out.println();
+		for(String[] row : gameBoard) {
+			for(String c : row) {
+				System.out.print(c);
+			}
+			System.out.println();
+		}
+	}
+
+}

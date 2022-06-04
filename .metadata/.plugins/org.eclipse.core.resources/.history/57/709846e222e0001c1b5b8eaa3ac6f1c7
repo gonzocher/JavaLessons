@@ -1,0 +1,12 @@
+
+public class ForLoops {
+
+	public static void main(String[] args) {
+
+		System.out.println("Let's print 10 times\n");
+		for (int i = 0; i < 10; i++) {
+			System.out.println("I love to code " + i);
+		}
+	}
+
+}

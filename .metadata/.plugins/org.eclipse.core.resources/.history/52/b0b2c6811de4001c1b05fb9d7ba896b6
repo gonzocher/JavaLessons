@@ -1,0 +1,81 @@
+import java.util.Scanner;
+
+// Tic Tac Toe game in the console
+
+public class WinTicTacToe {
+
+	public static void main(String[] args) {
+		// Game Board (2D array)
+		String[][] gameBoard = {
+							{" 1 ", "|", " 2 ", "|", " 3 "},
+							{"---", "+", "---", "+", "---"},
+							{" 4 ", "|", " 5 ", "|", " 6 "},
+							{"---", "+", "---", "+", "---"},
+							{" 7 ", "|", " 8 ", "|", " 9 "},
+							};
+		
+		printGameBoard(gameBoard);
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("\nEnter your position choice (1-9)");
+		int pos = scan.nextInt();
+		System.out.println("X goes in position " + pos);
+		
+		placePiece(gameBoard, pos, "player");
+		printGameBoard(gameBoard);
+	}
+	
+	public static void printGameBoard(String[][] gameBoard) {
+		
+		System.out.println();
+		for(String[] row : gameBoard) {
+			for(String c : row) {
+				System.out.print(c);
+			}
+			System.out.println();
+		}
+	}
+	
+	public static void placePiece(String[][] gameBoard, int pos, String user) {
+		
+		String symbol = " ? ";
+		
+		if(user.equals("player")) {
+			symbol = " X ";
+		} else if(user.equals("cpu")) {
+			symbol = " O ";
+		}
+		
+		switch(pos) {
+			case 1:
+				gameBoard[0][0] = symbol;
+				break;
+			case 2:
+				gameBoard[0][2] = symbol;
+				break;
+			case 3:
+				gameBoard[0][4] = symbol;
+				break;
+			case 4:
+				gameBoard[2][0] = symbol;
+				break;
+			case 5:
+				gameBoard[2][2] = symbol;
+				break;
+			case 6:
+				gameBoard[2][4] = symbol;
+				break;
+			case 7:
+				gameBoard[4][0] = symbol;
+				break;
+			case 8:
+				gameBoard[4][2] = symbol;
+				break;
+			case 9:
+				gameBoard[4][4] = symbol;
+				break;
+			default:
+				break;
+		}
+	}
+}

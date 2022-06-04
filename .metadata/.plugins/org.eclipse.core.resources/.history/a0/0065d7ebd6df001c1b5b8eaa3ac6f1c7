@@ -1,0 +1,14 @@
+
+public class StringsProgram {
+
+	public static void main(String[] args) {
+		System.out.println("MadLibs");
+		String adjective1 = "flamboyant";
+		String verb = "spilled";
+		String noun = "notebook";
+		System.out.println("My " + adjective1 + " sister accidentally " + verb + " all over her new " + noun + ".");
+		
+		
+	}
+
+}

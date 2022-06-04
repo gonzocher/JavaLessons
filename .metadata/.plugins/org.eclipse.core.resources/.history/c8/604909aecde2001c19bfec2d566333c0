@@ -1,0 +1,14 @@
+
+public class Return {
+
+	public static void main(String[] args) {
+		printAMessage();
+		}
+		// Returns occur inside a method
+		
+	
+
+	public static void printAMessage() {
+		System.out.println("This is our first method!");
+	}
+}

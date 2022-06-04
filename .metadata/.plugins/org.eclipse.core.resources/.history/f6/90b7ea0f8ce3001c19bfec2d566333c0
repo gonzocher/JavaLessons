@@ -1,0 +1,19 @@
+import java.util.HashSet;
+
+public class Hash {
+
+	public static void main(String[] args) {
+		
+		HashSet<String> h = new HashSet<String>();
+		h.add("lemur");
+		h.add("orangutan");
+		h.add("spider monkey");
+		h.add("silverback gorilla");
+		System.out.println(h);
+		// .remove or .clear or .contains
+		System.out.println(h.isEmpty());
+		
+		
+	}
+
+}

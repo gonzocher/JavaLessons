@@ -1,0 +1,21 @@
+
+public class ASCII {
+
+	public static void main(String[] args) {
+		// abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~`!@#$%^&*()_-+={}[]|\:;"'<,>.? /
+		// 26 + 26 + 10 + 33 = 95 ASCII symbols
+		
+		System.out.println("ROFL:ROFL:LOL:ROFL:ROFL                       ");
+		System.out.println("           A            ");
+		System.out.println("  L    /--------                 ");
+		System.out.println(" LOL====      []\\               ");
+		System.out.println("  L    \\         \\         ");
+		System.out.println("        \\_________]               ");
+		System.out.println("           I    I         ");
+		System.out.println("        -----------/               ");
+		System.out.println("                       ");
+		System.out.println("                       ");
+		
+	}
+
+}

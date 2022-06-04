@@ -1,0 +1,13 @@
+
+public class ZombieStopper {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to our Zombie Stopper!!!")
+		
+		String backpack[] = {"Slingshot", "Frisbee", "Boomerang"};
+		String zombies[] = {"Close-range zombie", "Mid-range zombie", "Long-range zombie"};
+
+		System.out.println(backpack[0]);
+	}
+
+}

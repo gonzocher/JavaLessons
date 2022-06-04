@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class StringsProgram {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("MadLibs");
+		System.out.println("Enter a noun: ");
+
+		String noun1 = scan.next();
+		System.out.println(noun1);
+		//String noun2 =
+		String verb = "spilled";
+		String noun = "notebook";
+		System.out.println("My " + noun1 + " sister accidentally " + verb + " all over her new " + noun + ".");
+		
+		
+	}
+
+}

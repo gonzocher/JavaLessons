@@ -1,0 +1,22 @@
+
+public class Conditional {
+
+	public static void main(String[] args) {
+
+		String response = "howdy";
+		
+		int result = (8 > 3) ? 7 : 3;
+		
+		/*
+		 * same as
+		 * if(8 > 3) {
+		 *     a = 7;
+		 * } else {
+		 *     a = 3;
+		 * }        
+		 */
+		
+		System.out.println(result);
+	}
+
+}
